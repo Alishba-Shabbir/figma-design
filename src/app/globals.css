@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General styles */
+body {
+  /* background-color: #1e1a1a; */
+  color:black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio {
+  margin: 0 auto;
+ background-color: #260f63;
+}
+.content{
+  padding-left:30px;
+  margin: 20px;
+  height: 300px;
+
+}
+h1,h2{
+  text-align: left;
+  font-weight: 800;
+  font-size: xx-large;
+  color: aliceblue;
+}
+p{
+  text-align: center;
+ margin-right: 520px;
+ margin-left: 20px;
+ line-height: 1.6;
+ font-size: 19px;
+ padding-top: 20px;
+ color: white;
+}
+
+/* Header Styles */
+.header {
+  background-color:black;
+  color: yellow;
+  padding: 15px;
+  border: 1px #ddd solid;
+
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 300px;
+}
+
+.header-buttons li {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.header-buttons li:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #ded0d0;
+  padding: 15px;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+
+.footer-buttons li {
+  font-size: 16px;
+  color: #260f63;
+}
+
+.footer-buttons li:hover {
+  text-decoration: underline;
+}
+
+
